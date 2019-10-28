@@ -1,0 +1,4 @@
+target_suffix_list:
+  - html
+  - txt
+dir_recursive: True
