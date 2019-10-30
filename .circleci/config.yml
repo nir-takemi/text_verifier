@@ -1,0 +1,15 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/python:latest
+    steps:
+      - checkout
+
+      - run:
+          command: |
+            sudo pip install pipenv
+            pipenv install
+            pipenv run pip install pyyaml
+            pipenv run pip install pytest
+            pipenv run pytest
