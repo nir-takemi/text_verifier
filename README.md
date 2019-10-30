@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/nir-takemi/text_verifier/tree/master.svg?style=svg)](https://circleci.com/gh/nir-takemi/text_verifier/tree/master)
+
 # Installation
 
 1. clone this repository.
