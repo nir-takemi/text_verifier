@@ -34,4 +34,4 @@ def test_failed_date_ng_list2():
     assert 1 == len(TextVerifier().verify_text('<br>2/29（月）23:59<br>'))
 
 def test_failed_date_verify():
-    assert 0 == len(TextVerifier().verify_text('2016/2/30（火）23:59'))
+    assert 1 == len(TextVerifier().verify_text('2016/2/30（火）23:59'))
